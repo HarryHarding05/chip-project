@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -5633513679468443198}
   - component: {fileID: -7379320398723244087}
   - component: {fileID: 4417829710773909192}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: redWalnut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703847411514078326}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

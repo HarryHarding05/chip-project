@@ -13,6 +13,12 @@ public class Walnut : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position += new Vector3(-0.02f, 0, 0);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        chipmunk.numberOfWalnuts++;
+        Destroy(gameObject);
     }
 }
